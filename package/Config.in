@@ -2039,5 +2039,6 @@ menu "Custom apps & tools"
 
 	source "package/my_app/Config.in"
 	source "package/fann/Config.in"
+	source "package/sqlite_moderncpp/Config.in"
 endmenu
 endmenu

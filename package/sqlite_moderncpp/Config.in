@@ -1,5 +1,5 @@
-config BR2_PACKAGE_FANN
-	bool "Fast Artificial Neural Network Library"
+config BR2_PACKAGE_SQLITE_MODERNCPP
+	bool "C++14 wrapper for sqlite"
 	help
 	  This is a comment that explains what libfoo is. The help text
 	  should be wrapped.
