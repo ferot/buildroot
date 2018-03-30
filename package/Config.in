@@ -2035,4 +2035,9 @@ menu "Text editors and viewers"
 	source "package/vim/Config.in"
 endmenu
 
+menu "Custom apps & tools"
+
+	source "package/my_app/Config.in"
+	source "package/fann/Config.in"
+endmenu
 endmenu
