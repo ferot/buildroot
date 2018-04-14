@@ -13,7 +13,7 @@ OPENCV3_LICENSE_FILES = LICENSE
 OPENCV3_SUPPORTS_IN_SOURCE_BUILD = NO
 
 OPENCV3_DEPENDENCIES = opencv3_contrib
-EXTRA_MODULES_PATH = $(BUILD_DIR)/opencv3_contrib/modules
+EXTRA_MODULES_PATH = $(BUILD_DIR)/opencv3_contrib-$(OPENCV3_VERSION)/modules
 
 echo "XXXX sciezka extra modules :  $(EXTRA_MODULES_PATH)"
 

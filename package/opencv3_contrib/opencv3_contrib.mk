@@ -9,5 +9,6 @@
 ################################################################################
 
 OPENCV3_CONTRIB_VERSION = 3.2.0
-DMS_SITE = $(call github,opencv,opencv_contrib,$(OPENCV3_CONTRIB_VERSION))
+OPENCV3_CONTRIB_SITE = $(call github,opencv,opencv_contrib,$(OPENCV3_CONTRIB_VERSION))
 
+$(eval $(generic-package))
