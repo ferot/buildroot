@@ -11,7 +11,9 @@ OPENCV3_INSTALL_TARGET = YES
 OPENCV3_LICENSE = BSD-3-Clause
 OPENCV3_LICENSE_FILES = LICENSE
 OPENCV3_SUPPORTS_IN_SOURCE_BUILD = NO
-EXTRA_MODULES_PATH = "/home/tf/libs/opencv_contrib-3.2.0/modules"
+
+OPENCV3_DEPENDENCIES = opencv3_contrib
+EXTRA_MODULES_PATH = $(BUILD_DIR)/opencv3_contrib/modules
 
 echo "XXXX sciezka extra modules :  $(EXTRA_MODULES_PATH)"
 

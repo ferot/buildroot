@@ -2042,5 +2042,6 @@ menu "Custom apps & tools"
 	source "package/sqlite_moderncpp/Config.in"
 	source "package/log4c/Config.in"
 	source "package/dms/Config.in"
+	source "package/opencv3_contrib/Config.in"
 endmenu
 endmenu
