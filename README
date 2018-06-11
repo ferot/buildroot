@@ -13,14 +13,10 @@ To build and use the buildroot stuff, do the following:
 4) wait while it compiles
 5) find the kernel, bootloader, root filesystem, etc. in output/images
 
-You do not need to be root to build or run buildroot.  Have fun!
 
-Buildroot comes with a basic configuration for a number of boards. Run
-'make list-defconfigs' to view the list of provided configurations.
-
-Please feed suggestions, bug reports, insults, and bribes back to the
-buildroot mailing list: buildroot@buildroot.org
-You can also find us on #buildroot on Freenode IRC.
-
-If you would like to contribute patches, please read
-https://buildroot.org/manual.html#submitting-patches
+Basicly it can be translated into :
+1) clone repo
+2) run :
+$ make dms_rpi3_defconfig O=/opt/rpisdk
+3) go into /opt/rpisdk (assuming that this dir exists before you trigger that command)
+4) run make -j<num_of_cores>
